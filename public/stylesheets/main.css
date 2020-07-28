@@ -1,0 +1,147 @@
+body{
+	background-image: linear-gradient(to right,#E2F3FE,white);
+	font-family: "Nunito", sans-serif;
+	width: 100%;
+}
+
+#mainNavbar {
+	font-size: 1.5rem;
+	font-weight: 100;
+}
+
+#navLinksNav a{
+	color: black;
+	font-weight: 100;
+	font-size: 1rem;
+	letter-spacing: 1.0;
+	text-transform: uppercase;
+}
+
+#navLinks a:hover{
+	color: #ea1c2c;
+}
+
+#mainNavbar .nav-link:hover{
+	color: #ea1c2c;
+}
+
+#pic{
+	padding: 0;
+}
+
+#mainNavbar .navbar-brand{
+	color: black;
+	font-size: 1.5rem;
+
+}
+
+#headingGroup span {
+	color: red;
+}
+
+#headingGroup h1 {
+	font-weight: 100;
+	font-size: 4rem;
+}
+
+
+#explain {
+	font-weight: 100;
+}
+
+@media(max-width: 1200px){
+	#headingGroup h1 {
+	font-weight: 100;
+	font-size: 3rem;
+}
+}
+
+.blurb h2{
+	color: #ea1c2c;
+	font-weight: 100;
+	font-size: 2.5rem;
+}
+
+.blurb p{
+	color: black;
+	font-weight: 100;
+	font-size: 1.125rem;
+	line-height: 2;
+}
+
+.blurb2 p{
+	color: blue;
+	font-weight: 100;
+	font-size: 1.125rem;
+	line-height: 2;
+}
+
+.content{
+	margin-bottom: 50px;
+}
+
+.navbar.scrolled{
+	background: #E2F3FE;
+	transition: background .5s;
+}
+
+#footer{
+	background: #E2F3FE;
+	font-weight: 100;
+}
+
+#footer a{
+	color: black;
+}
+#mainNavbar #linkedin{
+	color:blue;
+}
+
+#lassensLink a{
+	color: black;
+}
+
+#vintageLink a{
+	color: black;
+}
+
+#ttvLink a{
+	color: black;
+}
+
+#certifLine{
+	text-decoration: underline;
+}
+
+.gallery {
+-webkit-column-count: 3;
+-moz-column-count: 3;
+column-count: 3;
+-webkit-column-width: 33%;
+-moz-column-width: 33%;
+column-width: 33%; }
+.gallery .pics {
+-webkit-transition: all 350ms ease;
+transition: all 350ms ease; }
+.gallery .animation {
+-webkit-transform: scale(1);
+-ms-transform: scale(1);
+transform: scale(1); }
+
+@media (max-width: 450px) {
+.gallery {
+-webkit-column-count: 1;
+-moz-column-count: 1;
+column-count: 1;
+-webkit-column-width: 100%;
+-moz-column-width: 100%;
+column-width: 100%;
+}
+}
+
+@media (max-width: 400px) {
+.btn.filter {
+padding-left: 1.1rem;
+padding-right: 1.1rem;
+}
+}
