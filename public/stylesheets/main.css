@@ -2,6 +2,7 @@ body{
 	background-image: linear-gradient(to right,#E2F3FE,white);
 	font-family: "Nunito", sans-serif;
 	width: 100%;
+	height: 100%;
 }
 
 #mainNavbar {
@@ -37,17 +38,30 @@ body{
 
 #headingGroup span {
 	color: red;
+	
 }
-
+#headingGroupAbout{
+	font-weight: 100;
+	font-size: 4rem;
+}
 #headingGroup h1 {
 	font-weight: 100;
 	font-size: 4rem;
+	animation-name: introSlideLeft;
+	animation-duration: 1s;
+}
+
+#intro{
+	animation-name: introSlideLeft;
+	animation-duration: 1s;
 }
 
 
 #explain {
 	font-weight: 100;
+	font-size: 1rem;
 }
+
 
 @media(max-width: 1200px){
 	#headingGroup h1 {
@@ -112,6 +126,18 @@ body{
 #certifLine{
 	text-decoration: underline;
 }
+
+@keyframes introSlideLeft{
+	0%{
+		opacity: 0;
+		transform: translatex(-100px);
+	}
+	100%{
+		opacity: 1;
+		transform: translate(0);
+	}
+}
+
 
 .gallery {
 -webkit-column-count: 3;
