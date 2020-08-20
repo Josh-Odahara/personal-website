@@ -139,6 +139,16 @@ body{
 	}
 }
 
+.composition {
+	transition: all .2s;
+}
+		
+.composition:hover{
+	transform: scale(1.05) translatey(-.5rem);
+}
+	
+
+
 
 .gallery {
 -webkit-column-count: 3;
