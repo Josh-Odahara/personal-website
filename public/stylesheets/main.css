@@ -91,6 +91,10 @@ body{
 	line-height: 2;
 }
 
+.card{
+	background-color: #E2F3FE
+}
+
 .content{
 	margin-bottom: 50px;
 }
